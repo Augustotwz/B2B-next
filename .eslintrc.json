@@ -14,6 +14,7 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
+    "require-jsdoc": 0,
     "quotes": ["error", "single"],
     "object-curly-spacing": ["error", "always"],
     "react/react-in-jsx-scope": "off",
