@@ -8,14 +8,12 @@
   height: 62px;
 }
 
-/* .brand {
-  border: 1px solid red;
-} */
-
+.brand {
+  display: flex;
+}
 .brand span {
   font-size: 22px;
   font-weight: 900;
-  font-family: Ralaway;
   line-height: 41px;
   vertical-align: middle;
 }
@@ -37,11 +35,11 @@
 
 .ul li {
   width: 71px;
-  padding: 8px 10px;
+  padding: 3px 10px;
   margin-inline: 5px;
   display: flex;
   justify-content: center;
-  border-bottom: 5px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .ul li a {
@@ -50,7 +48,7 @@
 }
 
 .ul li:hover {
-  border-bottom: 5px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
 }
 
 .btn {
@@ -83,21 +81,7 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .nav {
-    height: 102px;
-  }
   .brand span {
-    font-size: 35px;
-  }
-  .ul li {
-    width: 110px;
-  }
-  .ul li a {
-    font-size: 17px;
-  }
-  .btn {
-    width: 168px;
-    height: 41px;
-    font-size: 17px;
+    font-size: 28px;
   }
 }
