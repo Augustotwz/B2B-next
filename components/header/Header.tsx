@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { IconMailHeader } from '../../icons'
+import IconMailHeader from '../../public/icons/mail_header.png'
 import styles from './Header.module.css'
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
   ]
 
   return (
-    <header>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.brand}>
           <Link href='/'>

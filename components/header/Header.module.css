@@ -1,11 +1,19 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   max-width: 1440px;
-  width: 100%;
+  width: 90%;
   height: 62px;
+  margin: auto;
+  margin-top: 35px;
 }
 
 .brand {
@@ -79,9 +87,22 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 850px) {
   /* For desktop: */
   .brand span {
     font-size: 28px;
+  }
+  .ul li {
+    width: 110px;
+    padding: 7px 10px;
+    border-bottom: 3px solid #fff;
+  }
+  .ul li a {
+    font-size: 17px;
+  }
+  .btn {
+    width: 168px;
+    height: 41px;
+    font-size: 17px;
   }
 }
