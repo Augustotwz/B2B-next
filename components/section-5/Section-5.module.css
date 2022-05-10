@@ -1,0 +1,90 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container h2 {
+  max-width: 240px;
+  font-size: 26px;
+}
+.logos {
+  width: 237px;
+  height: 137px;
+  margin: auto;
+}
+
+.logos img {
+  width: 100px !important;
+  padding: 10px !important;
+}
+
+.action {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 320px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: var(--color-primary);
+}
+.action h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.action button {
+  width: 131px;
+  height: 42px;
+  font-size: 13px;
+
+  font-weight: 800;
+  color: var(--color-primary);
+  border: none;
+  background-color: #fff;
+}
+
+.action button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+@media only screen and (min-width: 600px) {
+  .logos {
+    width: 281px;
+    height: 242px;
+  }
+  .logos img {
+    width: 135px !important;
+    padding: 15px !important;
+  }
+  .action {
+    height: 240px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .logos {
+    width: auto;
+    height: auto;
+  }
+  .container h2 {
+    max-width: 390px;
+    font-size: 37px;
+  }
+  .action {
+    height: 366px;
+  }
+  .action h1 {
+    font-size: 60px;
+  }
+  .action button {
+    width: 200px;
+    height: 65px;
+    font-size: 21px;
+  }
+}
