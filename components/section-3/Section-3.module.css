@@ -37,13 +37,13 @@
 
 @media only screen and (min-width: 600px) {
   .tumb1 {
-    margin-right: 10;
+    margin-right: 10px;
     margin-bottom: 90px;
     min-width: 250px;
   }
   .tumb2 {
     margin-top: 90px;
-    margin-left: 10;
+    margin-left: 10px;
   }
 }
 @media only screen and (min-width: 780px) {
@@ -51,9 +51,6 @@
     max-width: 1400px;
     align-items: center;
     flex-direction: row;
-  }
-  .tumb {
-    max-width: 290px;
   }
   .text {
     width: 365px;

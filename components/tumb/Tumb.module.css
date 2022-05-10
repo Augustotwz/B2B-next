@@ -2,12 +2,12 @@
   max-height: 240px;
   background-color: #fff;
 }
-
 .text {
   background-color: #fff;
   height: 118px;
-  padding: 15px;
-  padding-top: 5;
+  padding: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
   font-size: 12px;
   font-weight: 500;
   display: flex;
@@ -20,4 +20,12 @@
 }
 .text a:hover {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 780px) {
+  .text {
+    font-size: 16px;
+    min-height: 140px;
+    height: auto;
+  }
 }
