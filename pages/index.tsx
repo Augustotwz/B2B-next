@@ -1,7 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { PageTemplate } from '../components/page-template/page-template'
 import styles from '../styles/Home.module.css'
+import {
+  PageTemplate,
+  SectionOne,
+  SectionTwo,
+  SectionThree,
+  SectionFour,
+  SectionFive,
+} from '../components'
 
 const Home: NextPage = () => {
   return (
@@ -12,18 +19,17 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <PageTemplate>
-        Divulgação
+        <SectionOne />
         <br />
-        Vídeo
+        <SectionTwo />
         <br />
-        Tumbs
+        <div className={styles.background}>
+          <SectionThree />
+        </div>
         <br />
-        Case Study
+        <SectionFour />
         <br />
-        Brands
-        <br />
-        Get Started
-        <br />
+        <SectionFive />
       </PageTemplate>
     </div>
   )
