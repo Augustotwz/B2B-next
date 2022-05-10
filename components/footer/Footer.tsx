@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Footer.module.css'
-import { IconMailFooter } from '../../icons'
+import IconMailFooter from '../../public/icons/mail_footer.png'
 
 export function Footer() {
   const links = [

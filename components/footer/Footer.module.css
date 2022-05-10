@@ -1,5 +1,5 @@
 .footerInfo {
-  margin-top: 1000px;
+  margin-top: 400px;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +26,7 @@
   border-top: 1px solid #dbdbdb;
   padding: 17px 22px;
   font-weight: 700;
-  font-size: 9px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -42,7 +42,6 @@
 }
 
 @media only screen and (min-width: 600px) {
-  /* For tablets: */
   .footerInfo {
     flex-direction: row;
     justify-content: space-around;
@@ -56,11 +55,21 @@
   .footerLinks {
     padding-left: 20px;
   }
+  .footerLinks a {
+    font-size: 19px;
+  }
   .text {
     flex-direction: row;
+    font-size: 15px;
   }
   .text .terms {
     margin-top: 0px;
     flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .footerLinks a {
+    padding-right: 25px;
   }
 }
