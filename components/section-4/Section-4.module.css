@@ -1,0 +1,95 @@
+.imagesBox {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emailBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.emailBox h2 {
+  margin: 0;
+  padding: 15px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 115px;
+  margin: auto;
+}
+
+.actions input {
+  width: 275px;
+  height: 42px;
+}
+
+.actions button {
+  width: 144px;
+  height: 44px;
+  font-size: 11px;
+
+  font-weight: 800;
+  color: #fff;
+  border: none;
+  background-color: var(--color-primary);
+}
+
+.actions button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+@media only screen and (min-width: 650px) {
+  /* For tablets: */
+  .imagesBox {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .emailBox {
+    max-width: 600px;
+    width: 80%;
+    margin: auto;
+  }
+  .emailBox h2 {
+    font-size: 28px;
+  }
+  .actions {
+    width: 90%;
+    flex-direction: row;
+    height: auto;
+  }
+  .actions button {
+    width: 120px;
+    height: 42px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .emailBox h2 {
+    font-size: 44px;
+    width: 1000px;
+  }
+  .actions {
+    width: 100%;
+  }
+  .actions button {
+    width: 221px;
+    height: 65px;
+    font-size: 21px;
+  }
+  .actions input {
+    width: 380px;
+    height: 65px;
+    margin-right: 10px;
+  }
+}
